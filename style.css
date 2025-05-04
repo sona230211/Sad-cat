@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(8, 22, 66);
+    color: rgb(177, 189, 255);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.planet{
+    width: 300px;
+}
+.planet::before{
+    
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 123);
+}
+.cat{
+    width: 300px;
+    opacity: 0;
+}
+.dog{
+   width: 300px; 
+}
+.home{
+    font-size: 32px;
+    text-align: left;
+}
+.footer{
+    font-size: 32px;
+    text-align: center;
+}
+.cap{
+    font-size: 32px;
+    text-align: right;
+}
+.wait{
+    width: 300px;
+    opacity: 1;
+}
+.wait:hover{
+    opacity: 0.5;
+}
+.cat:hover{
+    opacity: 1;
+}
+.planet:hover{
+  opacity: 0.2;
+}
